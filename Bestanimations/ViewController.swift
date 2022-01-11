@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var coreAnimationView: UIView!
 
     @IBAction func runCoreAnimation(_ sender: UIButton) {
+        sender.pulsate()
     }
     
 }
